@@ -136,6 +136,10 @@ type tTrade = record
     __: boolean;
   end;
 
+type tWeb = record
+    __: boolean;
+  end;
+
 var
   ogl: tOGL;
   actionbar: tActionBar;
@@ -156,3 +160,4 @@ var
   progress: tProgress;
   shop: tShop;
   trade: tTrade;
+  web: tWeb;
