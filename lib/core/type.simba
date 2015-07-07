@@ -116,6 +116,10 @@ type tOGL = record
     __: boolean;
   end;
 
+type tPlayer = record
+    __: boolean;
+  end;
+
 type tProduction = record
     __: boolean;
   end;
@@ -147,6 +151,7 @@ var
   math: tMath;
   minimap: tMinimap;
   mouse: tMouse;
+  player: tPlayer;
   production: tProduction;
   progress: tProgress;
   shop: tShop;
